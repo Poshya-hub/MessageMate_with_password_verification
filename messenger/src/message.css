@@ -1,0 +1,64 @@
+.message {
+  padding: 5px !important;
+  margin: 10px;
+  width: fit-content;
+  max-width: 300px;
+  word-wrap: break-word;
+  justify-content: left;
+  text-align: left;
+}
+
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  padding: 0px !important;
+  background: #4169e1 !important;
+  /* background: rgb(204, 200, 200) !important; */
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(7.9px) !important;
+  -webkit-backdrop-filter: blur(7.9px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.42) !important;
+}
+
+.message_guestCard {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  padding: 0px !important;
+  background: blueviolet !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(7.9px) !important;
+  -webkit-backdrop-filter: blur(7.9px) !important;
+  border: 1px solid rgba(247, 244, 244, 0.42) !important;
+}
+
+.message_userCard .msg_text {
+  color: white;
+  font-size: 14px !important;
+  text-align: left;
+}
+
+.message_guestCard .msg_text {
+  color: rgba(255, 255, 255, 0.993);
+  font-size: 14px !important;
+}
+.time {
+  color: white;
+  font-size: 12px;
+  padding: 10px 0px 0px 0px;
+}
+@media (max-width: 700px) {
+  .message_guestCard .msg_text {
+    font-size: 9px;
+  }
+  .message_userCard .msg_text {
+    font-size: 9px;
+  }
+}
